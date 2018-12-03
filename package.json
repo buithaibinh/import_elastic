@@ -1,0 +1,33 @@
+{
+  "name": "sakenomy",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "start": "node .",
+    "posttest": "npm run lint && nsp check"
+  },
+  "dependencies": {
+    "commander": "^2.9.0",
+    "compression": "^1.0.3",
+    "cors": "^2.5.2",
+    "csv-parse": "^3.0.0",
+    "elasticsearch": "^15.1.1",
+    "helmet": "^3.13.0",
+    "lodash": "^4.13.1",
+    "moment": "^2.13.0",
+    "serve-favicon": "^2.0.1",
+    "strong-error-handler": "^2.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.17.1",
+    "nsp": "^3.2.1"
+  },
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "license": "UNLICENSED"
+}
